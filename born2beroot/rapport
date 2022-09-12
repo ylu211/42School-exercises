@@ -1,0 +1,31 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    rapport                                            :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ylam <marvin@42.fr>                        +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2022/06/04 17:03:29 by ylam              #+#    #+#              #
+#    Updated: 2022/06/04 18:47:52 by ylam             ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+
+Pour le monitoring :
+uname = permet de recuperer des informations sur la machine (nom d'hote, processeur de la machine, la version du noyau)
+-> option : 
+	-s / --kernel-name : c'est le nom du noyau
+	-n / --nodename : c'est le nom de l'hote de la machine
+	-r / --kernel-release : c'est la version actuelle du noyau
+	-v / --kernel-version : c'est la date a laquelle a ete compile le noyau
+	-i / --machine : c'est le nom de l'architecture materielle de la machine
+	-o / --operating-system : c'est l'OS sur lequel on execute la commande
+	-a : tout
+
+nproc = donne le nombre de processseurs 
+-> option :
+	-all : tout
+
+free = permet de checker la memoire sur linux
+-> option :
+	-m : met les datas en MBs
