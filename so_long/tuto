@@ -1,0 +1,18 @@
+
+Faire le parsing de la map
+-> faire une structure pour mettre la map
+-> prendre le fichier .ber en argument
+-> verifier s'il est vide, qu'il ya bien une sortie, un item, et une position de depart au moins
+-> verifier que la carte est rectangulaire
+-> verifier que les cotes sont biens des murs
+
+Joueur
+-> compter ses mouvements
+-> verifier que la carte n'a plus d'items lorsque le joueur sort
+-> le joueur ne peut pas aller dans les murs
+
+Gestion graphique
+-> hook pour lier les actions du joueur aux touches
+-> esc doit fermer le programme proprement
+-> la croix doit fermer le programme proprement
+-> la gestion de la fenetre doit rester fluide 
